@@ -66,6 +66,8 @@ int main() {
 	double result2 = ((double)diff2.QuadPart / (double)ticksPerSec2.QuadPart)*1000;
 	printf("%.9fms\n", result2);
 
+	printf(".");
+
 	return 0;
 
 }
